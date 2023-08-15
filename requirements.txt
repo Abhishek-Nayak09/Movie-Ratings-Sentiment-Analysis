@@ -1,9 +1,4 @@
-pandas
-matplotlib
-seaborn
-flask
+streamlit
 numpy
-tensorflow
-opencv
 scikit-learn
-keras
+
