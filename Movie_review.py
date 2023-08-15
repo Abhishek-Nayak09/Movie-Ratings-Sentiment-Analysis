@@ -58,7 +58,7 @@ def main():
             # Map probability to star rating
                 star_rating = map_to_star_rating(prediction_prob_positive)
             
-                st.write("Predicted Star Ratings:", stars_rating_html(star_rating), unsafe_allow_html=True)
+                st.write("Predicted Movie Ratings:", stars_rating_html(star_rating), unsafe_allow_html=True)
 
     st.subheader("Disclaimer:")
     st.write("The sentiment analysis model provided here, based on a Naive Bayes algorithm, "
